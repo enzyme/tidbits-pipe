@@ -38,7 +38,7 @@ pipe('functional', [
 
 ### Composition
 ```js
-import { compose, pipe } from '@tidbits/pipe';
+import { compose } from '@tidbits/pipe';
 
 const uppercase = str => str.toUpperCase();
 const exclaim = str => `${str}!`;
