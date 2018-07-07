@@ -1,6 +1,23 @@
 # Pipe
 A tiny collection of JS functions to facilitate piping, composition and basic currying.
 
+## Install
+Using you favourite package manager:
+
+`yarn add @tidbits/pipe`
+
+or
+
+`npm i @tidbits/pipe`
+
+## Usage
+
+Via import's
+`import { compose, pipe, args } from '@tidbits/pipe';`
+
+Via require
+`const { compose, pipe, args } = require('@tidbits/pipe');`
+
 ## Functions
 ### `pipe(initialValue, fns)`
 - *initialValue* (any): The initial value passed to the first function in the pipeline.
